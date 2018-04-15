@@ -5,7 +5,7 @@
   #  puts "The line is currently empty."
   #else
 
-def take_a_number(aray, name) 
+def take_a_number(array, name) 
   array << name
   puts "Welcome, #{name} you are number #{array.length}."
 end
