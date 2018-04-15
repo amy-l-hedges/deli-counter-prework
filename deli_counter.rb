@@ -11,6 +11,7 @@ def line(array)
     end
        puts "The line is currently: #{new_array.join(" ")}" 
   end
+end
   
       
       
