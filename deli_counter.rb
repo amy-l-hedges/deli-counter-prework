@@ -1,9 +1,9 @@
 # Write your code here.var katzDeliLine = []
 
-def line(katz_deli)
-  if katz_deli.length == 0
-    puts "The line is currently empty."
-  else
+#def line(katz_deli)
+ # if katz_deli.length == 0
+  #  puts "The line is currently empty."
+  #else
 
 def take_a_number(katz_deli, name) 
   katz_deli.push(name)
