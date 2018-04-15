@@ -4,7 +4,14 @@
  # if array.length == 0
   #  puts "The line is currently empty."
   #else
-  return array
+  new_array = []
+  counter = 1 
+  array.each do |name|
+    newarray.push("#{counter}. #{name}")
+      counter += 1 
+      
+      
+      
 
 def take_a_number(array, name) 
     array.push(name)
