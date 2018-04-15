@@ -7,8 +7,7 @@
 
 def take_a_number(katz_deli, name) 
   katz_deli.push(name)
-  putz "Welcome, #{name} you are number #{katz_deli.length}."
-end
+  puts "Welcome, #{name} you are number #{katz_deli.length}."
 end
 
 function now_serving(katz_deli) 
