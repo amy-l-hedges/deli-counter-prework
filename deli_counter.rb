@@ -19,10 +19,8 @@ def take_a_number(array, name)
 puts "Welcome, #{array.last}. You are number #{array.length} in line."
 end
 
-fun_array = ["Alex", "Amy"]
-sad_array = []
 
-function now_serving(array)
+def now_serving(array)
  if array.length == 0
    puts "There is nobody waiting to be served!"
  else 
