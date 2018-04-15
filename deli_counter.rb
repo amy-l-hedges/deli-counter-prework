@@ -4,8 +4,7 @@ fun_array = []
 
 def line(array)
   if array.length == 0
-    return "The line is currently empty."
-  break
+    puts "The line is currently empty."
   end
     else
       new_array = []
