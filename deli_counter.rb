@@ -1,7 +1,5 @@
 # Write your code here.var katzDeliLine = []
 
-fun_array = ["alex", "amy"]
-sad_array = []
 
 def line(array)
   if array.length == 0
@@ -15,7 +13,6 @@ def line(array)
        puts "The line is currently: #{new_array}"   
   end
   
-  line(fun_array)
       
       
 
