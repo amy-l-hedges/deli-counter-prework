@@ -13,13 +13,14 @@ def line(array)
   end
 end
   
-      
-      
 
 def take_a_number(array, name) 
     array.push(name)
 puts "Welcome, #{array.last}. You are number #{array.length} in line."
 end
+
+fun_array = ["Alex", "Amy"]
+sad_array = []
 
 function now_serving(array) 
  if array.length == 0
