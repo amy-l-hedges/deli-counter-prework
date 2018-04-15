@@ -6,7 +6,7 @@
   #else
 
 def take_a_number(array, name) 
-    array << name
+    array.push(name)
 puts "Welcome, #{name} you are number #{array.length}."
 end
 
