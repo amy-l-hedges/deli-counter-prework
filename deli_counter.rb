@@ -9,6 +9,7 @@ def take_a_number(katz_deli, name)
   katz_deli.push(name)
   putz "Welcome, #{name} you are number #{katz_deli.length}."
 end
+end
 
 function now_serving(katz_deli) 
  if katz_deli.length == 0
