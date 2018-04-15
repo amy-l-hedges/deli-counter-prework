@@ -1,6 +1,6 @@
 # Write your code here.var katzDeliLine = []
 
-fun_array = []
+fun_array = ["alex", "amy"]
 
 def line(array)
   if array.length == 0
