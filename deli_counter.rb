@@ -21,11 +21,11 @@ def take_a_number(array, name)
 puts "Welcome, #{array.last}. You are number #{array.length} in line."
 end
 
-#function now_serving(array) 
- #if array.length == 0
-  # puts "There is nobody waiting to be served!"
- #else 
-#   puts "Currently serving #{katz_deli.first}."
- # katz_deli.shift
-#end
-#end
+function now_serving(array) 
+ if array.length == 0
+   puts "There is nobody waiting to be served!"
+ else 
+   puts "Currently serving #{array.first}."
+  array.shift
+end
+end
