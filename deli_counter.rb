@@ -7,7 +7,7 @@
 
 def take_a_number(array, name) 
     array.push(name)
-puts "Welcome, #{array.last}. You are number #{array.length}."
+puts "Welcome, #{array.last}. You are number #{array.length} in line."
 end
 
 #function now_serving(katz_deli) 
