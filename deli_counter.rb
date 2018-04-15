@@ -22,7 +22,7 @@ end
 fun_array = ["Alex", "Amy"]
 sad_array = []
 
-function now_serving 
+function now_serving(array)
  if array.length == 0
    puts "There is nobody waiting to be served!"
  else 
