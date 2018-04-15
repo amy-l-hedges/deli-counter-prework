@@ -1,5 +1,7 @@
 # Write your code here.var katzDeliLine = []
 
+fun_array = ["Amy", "Alex"]
+
 def line(array)
   if array.length == 0
     puts "The line is currently empty."
@@ -13,6 +15,8 @@ def line(array)
       puts "The line is currently: #{new_array}"
     end
   end
+  
+  line(fun_array)
       
       
 
