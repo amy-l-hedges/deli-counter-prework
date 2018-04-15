@@ -17,4 +17,5 @@ function now_serving(katz_deli)
    puts "Currently serving #{katz_deli.first}."
    line.shift
 end
+end
 
