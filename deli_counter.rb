@@ -8,10 +8,8 @@ def line(array)
   end
     else
       new_array = []
-      counter = 1
-      array.each do |name|
-        new_array.push("#{counter}. #{name}")
-      counter += 1 
+      array.each_with_index do |name, index|
+        new_array.push("#{index + 1}. #{name}")
     end
        puts "The line is currently: #{new_array}"   
   end
