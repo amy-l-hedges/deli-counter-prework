@@ -7,10 +7,7 @@
 
 def take_a_number(array, name) 
     array << name
-  if array.length < 2
-    puts "The line is currently empty."
-
-  puts "Welcome, #{name} you are number #{array.length}."
+puts "Welcome, #{name} you are number #{array.length}."
 end
 
 #function now_serving(katz_deli) 
